@@ -11,6 +11,10 @@
 - [ ] Week 3: 高级技术（迁移学习 + 不确定性量化）
 - [ ] Week 4: 临床部署
 
+## Weekly report
+-- [Week1 CH-ZN](./week1_traditional_cv/week1_report_chinese.md) 
+-- [Week1 EN](./week1_traditional_cv/week1_report_english.md)
+
 ## 环境安装
 ```bash
 pip install -r requirements.txt
