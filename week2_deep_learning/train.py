@@ -57,8 +57,7 @@ def train_medical_cnn(images, labels, num_epochs=30):
     optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4)
 
     # 学习率调度：验证损失不降则减半
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, patience=5, factor=0.5, verbose=True)
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, patience=5, factor=0.5)
 
     best_val_acc = 0.0
     patience_counter = 0
